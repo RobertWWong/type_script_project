@@ -1,0 +1,20 @@
+{
+    "name": "typescript_project",
+    "version": "1.0.0",
+    "description": "Some typescript stuff. Actually gonna implement a Microservice archietecture now.",
+    "main": "dist/app.js",
+    "scripts": {
+        "start": "tsc && node dist/app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1",
+        "typescript": "^3.6.3"
+    },
+    "devDependencies": {
+        "@types/express": "^4.17.1",
+        "tslint": "^5.20.0"
+    }
+}
